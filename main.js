@@ -1,5 +1,10 @@
 const { alert } = require("./lib/dialogs");
 
+/**
+ * Entry point for the plugin
+ *
+ * @param {!Selection} selection
+ */
 async function swapPosition(selection) {
     if (selection.items.length === 0) {
         await alert("Swap Position", "No nodes selected. Please select 2 nodes");

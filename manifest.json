@@ -4,7 +4,7 @@
     "app" : "XD",
     "minVersion" : "13.0.0"
   },
-  "description" : "Sample plugin for Adobe XD, providing starter project scaffolding.",
+  "description" : "An Adobe XD plugins that swaps the position of two selected nodes",
   "id" : "ff17a692",
   "icons" : [ {
     "path" : "images/icon.png",
